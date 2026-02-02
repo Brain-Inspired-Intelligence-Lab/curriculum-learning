@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ICARC 2026: Curriculum Learning Workshop</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" crossorigin />
+  <link rel="stylesheet" href="ICARCstyle.css" />
+</head>
+
+<body>
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+  <header class="page-header" role="banner" aria-label="Hero header with background" style="background: url('site_images/back4.webp') center/cover no-repeat;">
+    <h1 class="project-name">Curriculum Learning Workshop</h1>
+
+    <div class="project-tagline-section">
+      <h2 class="project-tagline">International Conference on Advances in Computing (ICARC) 2026</h2>
+
+      <div class="header-logos">
+        <a href="index.html" rel="noopener">
+          <img src="site_images/icarc-logo-png.png" alt="ICARC 2026 Logo" class="moratuwa-logo" />
+        </a>
+      </div>
+    </div>
+
+    <nav aria-label="Primary">
+      <a href="index.html" class="btn">Home</a>
+      <a href="#workshop-agenda" class="btn">Workshop Agenda</a>
+      <a href="blog.html" class="btn">Research Blog</a>
+    </nav>
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    <h2>Facilitators Team</h2>
+    <div class="photo-grid">
+      <div class="row">
+        <div class="facilitator-card">
+          <img src="profile_images/Mr.%20Menan.jpg" alt="Dr. Menan Perera" />
+          <p class="name">Dr. Menan Perera</p>
+          <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+          <p class="email"><a href="mailto:menan.p@sliit.lk">menan.p@sliit.lk</a></p>
+        </div>
+<!--
+        
+        <div class="facilitator-card">
+          <img src="profile_images/Mr.%20Dulara.png" alt="Mr. Dulara Jayasinghe" />
+          <p class="name">Mr. Dulara Jayasinghe</p>
+          <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+          <p class="email"><a href="mailto:dulara.j@sliit.lk">dulara.j@sliit.lk</a></p>
+        </div>
+      </div>
+    -->
+      <div class="row">
+        <div class="facilitator-card">
+          <img src="profile_images/Mr.%20Asiri.png" alt="Mr. Asiri Gawesha" />
+          <p class="name">Mr. Asiri Gawesha</p>
+          <p class="affiliation">Open University of Sri Lanka</p>
+          <p class="email"><a href="mailto:aglin@ou.ac.lk">aglin@ou.ac.lk</a></p>
+        </div>
+
+        <div class="facilitator-card">
+          <img src="profile_images/Mr.%20sanka.jpg" alt="Mr. Sanka Mohottala" />
+          <p class="name">Mr. Sanka Mohottala</p>
+          <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+          <p class="email"><a href="mailto:sanka.m@sliit.lk">sanka.m@sliit.lk</a></p>
+        </div>
+
+        <!--<div class="facilitator-card">
+          <img src="profile_images/Ms.%20SAvini.jpg" alt="Ms. Savini Kommalage" />
+          <p class="name">Ms. Savini Kommalage</p>
+          <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+          <p class="email"><a href="mailto:it24100641@my.sliit.lk">it24100641@my.sliit.lk</a></p>
+        </div>-->
+      </div>
+    </div>
+
+    <h2>Workshop Scope</h2>
+    <div class="abstract-section">
+      <p>
+        This workshop introduces <strong>Curriculum Learning</strong> as a practical strategy for
+        improving training stability, sample efficiency, and model generalization. Participants
+        will learn how to design curricula that sequence data and tasks from easy to hard,
+        and how to adapt schedules based on loss dynamics.
+      </p>
+      <ol>
+        <li><strong>Core Concepts</strong> – foundations, intuition, and empirical evidence.</li>
+        <li><strong>Scheduling Strategies</strong> – self-paced learning, teacher-student curricula, and adaptive sampling.</li>
+        <li><strong>Evaluation</strong> – metrics for stability, convergence, and generalization.</li>
+        <li><strong>Applications</strong> – NLP, CV, and multi-modal training pipelines.</li>
+      </ol>
+      <p>
+        Hands-on examples will demonstrate how curriculum design can reduce training time
+        and improve model robustness.
+      </p>
+    </div>
+
+    <h2>Workshop Agenda</h2>
+    <section id="workshop-agenda" aria-labelledby="agenda-title">
+      <div class="agenda-container">
+        <table class="agenda-table">
+          <thead>
+            <tr>
+              <th>Start Time</th>
+              <th>End Time</th>
+              <th>Duration</th>
+              <th>Topic</th>
+              <th>Presenter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>9:00 AM</td>
+              <td>9:15 AM</td>
+              <td>15 mins</td>
+              <td>Welcome & Workshop Overview</td>
+              <td>Organizing Team</td>
+            </tr>
+            <tr>
+              <td>9:15 AM</td>
+              <td>10:10 AM</td>
+              <td>55 mins</td>
+              <td>Foundations of Curriculum Learning</td>
+              <td>Dr. Menan Perera</td>
+            </tr>
+            <tr>
+              <td>10:10 AM</td>
+              <td>10:25 AM</td>
+              <td>15 mins</td>
+              <td>Break</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>10:25 AM</td>
+              <td>11:20 AM</td>
+              <td>55 mins</td>
+              <td>Adaptive Scheduling & Self-Paced Learning</td>
+              <td>Mr. Dulara Jayasinghe</td>
+            </tr>
+            <tr>
+              <td>11:20 AM</td>
+              <td>12:10 PM</td>
+              <td>50 mins</td>
+              <td>Hands-on Demo: Building a Curriculum</td>
+              <td>Mr. Sanka Mohottala</td>
+            </tr>
+            <tr>
+              <td>12:10 PM</td>
+              <td>12:30 PM</td>
+              <td>20 mins</td>
+              <td>Q&A and Discussion</td>
+              <td>All</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="qr-section wrap">
+      <h2>Join the Workshop</h2>
+      <p>Scan the QR codes below to register or join the workshop directly.</p>
+
+      <div class="qr-cards">
+        <div class="qr-card">
+          <img src="site_images/icarc-logo-png.png" alt="Register QR Code">
+          <p>Register for the Workshop</p>
+        </div>
+        <div class="qr-card">
+          <img src="site_images/SLIIT%20(1).png" alt="Join QR Code">
+          <p>Join via Zoom</p>
+        </div>
+      </div>
+    </section>
+
+    <h2>Organizers</h2>
+    <div class="organizer-row">
+      <div class="organizer-card">
+        <img src="profile_images/Mr.%20Menan.jpg" alt="Dr. Menan Perera" />
+        <p class="name">Dr. Menan Perera</p>
+        <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+        <p class="email"><a href="mailto:menan.p@sliit.lk">menan.p@sliit.lk</a></p>
+      </div>
+
+      <div class="organizer-card">
+        <img src="profile_images/Mr.%20Dulara.png" alt="Mr. Dulara Jayasinghe" />
+        <p class="name">Mr. Dulara Jayasinghe</p>
+        <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+        <p class="email"><a href="mailto:dulara.j@sliit.lk">dulara.j@sliit.lk</a></p>
+      </div>
+
+      <div class="organizer-card">
+        <img src="profile_images/Mr.%20Asiri.png" alt="Mr. Asiri Gawesha" />
+        <p class="name">Mr. Asiri Gawesha</p>
+        <p class="affiliation">Open University of Sri Lanka</p>
+        <p class="email"><a href="mailto:aglin@ou.ac.lk">aglin@ou.ac.lk</a></p>
+      </div>
+
+      <div class="organizer-card">
+        <img src="profile_images/Mr.%20sanka.jpg" alt="Mr. Sanka Mohottala" />
+        <p class="name">Mr. Sanka Mohottala</p>
+        <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+        <p class="email"><a href="mailto:sanka.m@sliit.lk">sanka.m@sliit.lk</a></p>
+      </div>
+
+      <div class="organizer-card">
+        <img src="profile_images/Ms.%20SAvini.jpg" alt="Ms. Savini Kommalage" />
+        <p class="name">Ms. Savini Kommalage</p>
+        <p class="affiliation">Sri Lanka Institute of Information Technology (SLIIT)</p>
+        <p class="email"><a href="mailto:it24100641@my.sliit.lk">it24100641@my.sliit.lk</a></p>
+      </div>
+    </div>
+
+    <div class="logos-container">
+      <div class="logos logos-row-1">
+        <a href="#" class="logo-link logo-size-2"><img src="site_images/uw.png" alt="University of Washington" /></a>
+        <a href="#" class="logo-link logo-size-3"><img src="site_images/SLIIT%20(1).png" alt="SLIIT" /></a>
+        <a href="#" class="logo-link logo-size-4"><img src="site_images/ousl-logo-2.png" alt="OUSL" /></a>
+      </div>
+      <div class="logos logos-row-2">
+        <a href="#" class="logo-link logo-size-5"><img src="site_images/BRAIN%20(1).png" alt="BrAIN Labs" /></a>
+        <a href="#" class="logo-link logo-size-7"><img src="site_images/sliiteng.jpg" alt="SLIIT Engineering" /></a>
+        <a href="#" class="logo-link logo-size-6"><img src="site_images/sliitRlogo.jpg" alt="SLIIT Research" /></a>
+      </div>
+    </div>
+
+    <br>
+    <hr style="border: none; border-top: 2px solid #dce6f0; margin-bottom: 1rem;">
+
+    <p style="margin: 0 0 0.75rem 0; color: #343a46; font-size: 1.1rem; font-family: 'Times New Roman', Times, serif; text-align: center;">
+      Organized by BrAINLabs Research Group and Faculty of Computing, SLIIT
+    </p>
+    <p style="margin: 0 0 1.5rem 0; color: #4a5568; font-size: 1.1rem; font-family: 'Times New Roman', Times, serif; text-align: center;">
+      ICARC 2026 Workshop Series
+    </p>
+
+    <div class="site-info">
+      <p>
+        <strong>This site is created by
+        <a href="https://github.com/savinikommalage" id="creator-link"><strong>Savini Kommalage</strong></a>
+        and currently maintained by
+        <a href="https://github.com/BrAINLabs-Inc" id="organization-link"><strong>BrAINLabs Research Group</strong></a>.
+        Original website can be accessed via
+        <a href="https://github.com/BrAINLabs-Inc" id="original-link"><strong>this link</strong></a>.<br>
+        This page was generated by
+        <a href="https://pages.github.com" id="github-pages-link"><strong>GitHub Pages</strong></a>.
+      </p>
+    </div>
+
+  </main>
+</body>
+</html>
