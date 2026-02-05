@@ -41,9 +41,9 @@ body {
 
 /* Workshops Grid */
 .workshops-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 10px;
 }
 
@@ -59,6 +59,8 @@ body {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  max-width: 400px;
+  width: 100%;
 }
 
 .workshop-card:hover {
