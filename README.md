@@ -28,10 +28,9 @@ This **full-day tutorial** combines:
 
 | Role | Name | Affiliation |
 |------|------|-------------|
-| **Invited Speaker** | Dr. Charith Abhayaratne | The University of Sheffield |
-| **Invited Speaker** | Mr. Menan Velayuthan | Utrecht University |
 | **Organizer** | Dr. Mahima Weerasinghe | SLIIT |
 | **Organizer** | Dr. Dharshana Kasthurirathna | SLIIT |
+| **Invited Speaker** | Mr. Menan Velayuthan | Utrecht University |
 | **Organizer/Speaker** | Mr. Sanka Mohottala | SLIIT |
 | **Organizer/Speaker** | Mr. Asiri Gawesha | SLIIT |
 | **Organizer/Speaker** | Ms. Savini Kommalage | SLIIT |
